@@ -2,33 +2,82 @@
 
   border: 1px solid black;
   width: 1000px;
-  height: 2410px;
   margin-top: 10px;
   margin-right: 1243px;
-  margin-bottom: 10px;
   margin-left: 250px;
+  margin-bottom: 10px;
+  float: left;
+  padding-bottom: 0px;
 }
 
-h1 {text-align: center;}
+h1 {
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  font-size: 30px;
+  border-bottom: 1px solid white;
+}
+
+}
 .awrapper{
 
   border: 1px dashed black;
   width: 1000px;
-  height: 2410px;
   margin-top: 189px;
-  margin-right: 1243px;
-  margin-bottom: 10px;
+  margin-right: 12px;
   margin-left: 0px;
+  padding-top: 0px;
 }
 
 .skyblue {
   background-color: #6cbfee;
-  border: 2px dotted black;
   margin: 17px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  padding: 50px;
+  margin-left: 150px;
 }
 
 .steelblue {
   background-color: #3594cb;
-  border: 2px dotted black;
-margin: 17px;
+  margin: 17px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  padding: 50px;
+  margin-left: 150px
+}
+
+.circle
+{
+width:60px;
+height:60px;
+border-radius:50%;
+line-height:60px;
+text-align:center;
+background:#a7d9f5;
+z-index: -1;
+float: left;
+}
+
+p{
+  color:white;
+}
+
+.time {
+  color:#6cbfee;
+  display: flex;
+  font-size: 40px;
+
+}
+
+.date {
+  color: font-size:12px;
+  color:#3594cb;
+}
+
+.timedate {
+  display:inline;
+  line-height: 30px;
 }
