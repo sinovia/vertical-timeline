@@ -1,6 +1,6 @@
 .twrapper {
 
-  border: 1px solid black;
+
   width: 1000px;
   margin-top: 10px;
   margin-right: 1243px;
@@ -49,8 +49,7 @@ h2 {
   margin-left: 150px
 }
 
-.circle
-{
+.circle {
 width:60px;
 height:60px;
 border-radius:50%;
@@ -59,6 +58,20 @@ text-align:center;
 background:#a7d9f5;
 z-index: -1;
 float: left;
+color: white;
+}
+
+.circleinner {
+margin-top: 10px;
+margin-left: 10px;
+width:40px;
+height:40px;
+border-radius:50%;
+line-height:40px;
+text-align:center;
+background: #46A4DA;
+z-index: -1;
+color: white;
 }
 
 p{
@@ -66,7 +79,7 @@ p{
 }
 
 .time {
-  color:#6cbfee;
+  color:#6cafee;
   display: flex;
   font-size: 40px;
 
@@ -74,10 +87,29 @@ p{
 
 .date {
   color: font-size:12px;
-  color:#3594cb;
+  color:#ccc;
+	font-size: 115x;
 }
 
 .timedate {
   display:inline;
   line-height: 30px;
+}
+
+.line {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 10px;
+	background: #afdcf8;
+	left: 9s0%;
+	margin-left: -10px;
+}
+
+.fa-clock-o {
+	color:white;
+	margin-top: 10px;
+	font-size: 30px;
+
 }
